@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100% ;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: hsl(343, 22%, 58%);
+  display: flex;
+  
+}
+
+#part1{
+  height: 100%;
+  width: 26%;
+}
+
+#part2{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(0, 208, 255);
+  background-image:url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+  background-size:cover ;
+  background-position: center;
+}
+
+#overlay{
+  height: 100% ;
+  width: 100%;
+  background-color:rgba(131, 119, 122, 0.39) ;
+}
+
+#part3{
+  height: 100%;
+  width: 7%;
+}
+
+#text-div{
+  position: absolute;
+  width: 400px;
+  left: 5%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#text-div>h1{
+  font-size: 80px;
+  font-family:gilroy ;
+  font-weight: 900;
+  line-height: 78px;
+  letter-spacing:5px ;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#small-img-div{
+  height: 500px;
+  width: 300px;
+ background-image: url(https://media.istockphoto.com/id/1308400798/photo/beautiful-young-brunette-woman-smiles-and-looks-at-the-camera.jpg?s=612x612&w=0&k=20&c=GDppHXFKU1uPaWakx7_oxwaaBi_QUVbgFlYbCOM9lTg=);
+ background-position: center;
+ background-size: cover;
+  position: absolute;
+  top: 50%;
+  right:15% ;
+  transform: translate(0, -50%);
+}
+
+#vertical-text{
+  position: absolute;
+  right: -35%;
+  transform-origin: 0% 0%;
+  transform: rotate(90deg);
+  top: 0%;
+}
+
+#vertical-text h1{
+  font-size: 64px;
+  font-weight: 900;
+  font-family: monument;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:#fff ;
+  color: transparent;
+  letter-spacing: 12px;
+}
+
+#nav{
+  position: absolute;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 5%;
+  top: 5%;
+}
+
+#nav img{
+  height: 50px;
+
+}
+
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
